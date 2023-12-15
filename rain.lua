@@ -24,6 +24,7 @@ sysmouse = mouse
 systime = time
 
 
+-- 3D models
 Floor = {
 	verts = {{-1.06,0,-1.36},{-1.5,-0,-0.85},{-1.71,-0,-0.21},{-1.66,-0,0.46},{-1.36,0,1.06},{-0.85,0,1.5},{-0.21,0,1.71},{0.46,0,1.66},{1.06,-0,1.36},{1.5,0,0.85},{1.71,0,0.21},{1.66,0,-0.46},{1.36,-0,-1.06},{0.85,-0,-1.5},{0.21,0,-1.71},{-0.46,0,-1.66},},
 	faces = {{2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,1},},
@@ -54,6 +55,60 @@ Handle = {
 	cols = {{176,174,170},},
 	fcols = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
 }
+Dust1 = {
+	verts = {{0.39,0.8,0.34},{0.36,0.87,0.24},{0.48,0.87,0.28},{0.48,0.87,0.4},{0.36,0.87,0.44},{0.29,0.87,0.34},{0.43,0.97,0.24},{0.5,0.97,0.34},{0.42,0.97,0.44},{0.31,0.97,0.4},{0.31,0.97,0.28},{0.39,1.04,0.34},},
+	faces = {{1,2,3},{2,1,6},{1,3,4},{1,4,5},{1,5,6},{2,6,11},{3,2,7},{4,3,8},{5,4,9},{6,5,10},{2,11,7},{3,7,8},{4,8,9},{5,9,10},{6,10,11},{7,11,12},{8,7,12},{9,8,12},{10,9,12},{11,10,12},},
+	cols = {{255,222,155},},
+	fcols = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
+}
+Dust2 = {
+	verts = {{-0.19,0.26,-0.56},{-0.22,0.33,-0.66},{-0.1,0.33,-0.62},{-0.1,0.33,-0.5},{-0.22,0.33,-0.46},{-0.29,0.33,-0.56},{-0.15,0.43,-0.66},{-0.08,0.43,-0.56},{-0.15,0.43,-0.46},{-0.27,0.43,-0.5},{-0.27,0.43,-0.62},{-0.19,0.5,-0.56},},
+	faces = {{1,2,3},{2,1,6},{1,3,4},{1,4,5},{1,5,6},{2,6,11},{3,2,7},{4,3,8},{5,4,9},{6,5,10},{2,11,7},{3,7,8},{4,8,9},{5,9,10},{6,10,11},{7,11,12},{8,7,12},{9,8,12},{10,9,12},{11,10,12},},
+	cols = {{255,222,155},},
+	fcols = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
+}
+Dust3 = {
+	verts = {{-0.16,0.41,0.58},{-0.19,0.48,0.48},{-0.07,0.48,0.52},{-0.08,0.48,0.64},{-0.19,0.48,0.68},{-0.27,0.48,0.58},{-0.13,0.58,0.48},{-0.06,0.58,0.58},{-0.13,0.58,0.68},{-0.25,0.58,0.64},{-0.25,0.58,0.52},{-0.16,0.65,0.58},},
+	faces = {{1,2,3},{2,1,6},{1,3,4},{1,4,5},{1,5,6},{2,6,11},{3,2,7},{4,3,8},{5,4,9},{6,5,10},{2,11,7},{3,7,8},{4,8,9},{5,9,10},{6,10,11},{7,11,12},{8,7,12},{9,8,12},{10,9,12},{11,10,12},},
+	cols = {{255,222,155},},
+	fcols = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
+}
+Yarn = {
+	verts = {{0,0.01,0},{-0.15,0.31,-0.48},{0.41,0.31,-0.29},{0.4,0.31,0.3},{-0.16,0.31,0.47},{-0.5,0.31,-0.01},{0.16,0.81,-0.47},{0.5,0.81,0.01},{0.15,0.81,0.48},{-0.41,0.81,0.29},{-0.4,0.81,-0.3},{0,1.12,0},{0.24,0.09,-0.17},{-0.09,0.09,-0.28},{0.15,0.27,-0.45},{-0.38,0.27,-0.28},{-0.29,0.09,-0},{0.24,0.09,0.18},{0.47,0.27,0.01},{-0.09,0.09,0.28},{0.14,0.27,0.45},{-0.39,0.27,0.27},{-0.32,0.56,-0.46},{-0.53,0.56,-0.18},{0.33,0.56,-0.45},{0.01,0.56,-0.56},{0.53,0.56,0.18},{0.53,0.56,-0.17},{-0.01,0.56,0.56},{0.32,0.56,0.46},{-0.53,0.56,0.17},{-0.33,0.56,0.45},{-0.14,0.86,-0.45},{0.39,0.86,-0.27},{0.38,0.86,0.28},{-0.15,0.86,0.45},{-0.47,0.86,-0.01},{0.09,1.04,-0.28},{-0.24,1.04,-0.18},{0.29,1.04,0},{0.09,1.04,0.28},{-0.24,1.04,0.17},{0.05,0.17,-0.15},{0.04,0.17,-0.21},{-0.85,0.17,-0.31},{-0.81,0.17,-0.36},{-0.42,0.17,-0.12},{-0.42,0.17,-0.19},{-0.64,0.17,-0.17},{-0.66,0.17,-0.11},{-1.13,0.17,-0.4},{-1.13,0.17,-0.46},{0.05,0.11,-0.15},{0.04,0.11,-0.21},{-0.85,0.11,-0.31},{-0.81,0.11,-0.36},{-0.42,0.11,-0.12},{-0.42,0.11,-0.19},{-0.64,0.11,-0.17},{-0.66,0.11,-0.11},{-1.13,0.11,-0.4},{-1.13,0.11,-0.46},{-0.65,1.34,-0.06},{-0.69,1.32,-0.06},{-0.71,1.3,-0.02},{-0.69,1.32,0.02},{-0.66,1.34,0.02},{-0.64,1.35,-0.02},{-0.65,1.34,-0.06},{-0.69,1.32,-0.06},{-0.71,1.3,-0.02},{-0.69,1.32,0.02},{-0.66,1.34,0.02},{-0.64,1.35,-0.02},{-0.62,1.37,-0.02},{-0.65,1.35,0.04},{-0.7,1.31,0.04},{-0.73,1.29,-0.02},{-0.7,1.31,-0.07},{-0.65,1.35,-0.07},{-0.68,1.45,-0.02},{-0.7,1.43,0.04},{-0.76,1.39,0.04},{-0.78,1.38,-0.02},{-0.76,1.39,-0.07},{-0.7,1.43,-0.07},{-0.38,0.93,0.01},{-0.37,0.94,-0.01},{-0.41,0.92,0.01},{-0.41,0.92,-0.04},{-0.38,0.93,-0.04},{-0.42,0.91,-0.01},{-0.28,1.44,-0.31},{-0.32,1.43,-0.31},{-0.35,1.43,-0.27},{-0.33,1.44,-0.23},{-0.29,1.45,-0.23},{-0.26,1.45,-0.27},{-0.28,1.44,-0.31},{-0.32,1.43,-0.31},{-0.35,1.43,-0.27},{-0.33,1.44,-0.23},{-0.29,1.45,-0.23},{-0.26,1.45,-0.27},{-0.25,1.46,-0.27},{-0.28,1.46,-0.21},{-0.34,1.45,-0.22},{-0.37,1.43,-0.28},{-0.33,1.42,-0.33},{-0.27,1.44,-0.32},{-0.27,1.55,-0.29},{-0.3,1.55,-0.24},{-0.37,1.54,-0.24},{-0.39,1.52,-0.3},{-0.35,1.52,-0.35},{-0.29,1.53,-0.34},{-0.2,1.04,-0.2},{-0.25,1.04,-0.18},{-0.21,1.05,-0.15},{-0.19,1.05,-0.17},{-0.24,1.04,-0.15},{-0.23,1.03,-0.2},},
+	faces = {{1,14,13},{2,14,16},{1,13,18},{1,18,20},{1,20,17},{2,16,23},{3,15,25},{4,19,27},{5,21,29},{6,22,31},{2,23,26},{3,25,28},{4,27,30},{5,29,32},{6,31,24},{7,33,38},{8,34,40},{9,35,41},{10,36,42},{11,37,39},{39,42,12},{39,37,42},{37,10,42},{42,41,12},{42,36,41},{36,9,41},{41,40,12},{41,35,40},{35,8,40},{40,38,12},{40,34,38},{34,7,38},{38,39,12},{38,33,39},{33,11,39},{24,37,11},{24,31,37},{31,10,37},{32,36,10},{32,29,36},{29,9,36},{30,35,9},{30,27,35},{27,8,35},{28,34,8},{28,25,34},{25,7,34},{26,33,7},{26,23,33},{23,11,33},{31,32,10},{31,22,32},{22,5,32},{29,30,9},{29,21,30},{21,4,30},{27,28,8},{27,19,28},{19,3,28},{25,26,7},{25,15,26},{15,2,26},{23,24,11},{23,16,24},{16,6,24},{17,22,6},{17,20,22},{20,5,22},{20,21,5},{20,18,21},{18,4,21},{18,19,4},{18,13,19},{13,3,19},{16,17,6},{16,14,17},{14,1,17},{13,15,3},{13,14,15},{14,2,15},{50,49,46,45},{43,44,48,47},{47,48,49,50},{45,46,52,51},{60,55,56,59},{53,57,58,54},{57,60,59,58},{55,61,62,56},{43,47,57,53},{44,43,53,54},{46,49,59,56},{47,50,60,57},{48,44,54,58},{49,48,58,59},{50,45,55,60},{51,52,62,61},{52,46,56,62},{45,51,61,55},{70,69,91,90},{72,71,92,89},{74,73,87,88},{70,90,92,71},{68,63,69,74},{73,72,89,87},{69,74,88,91},{70,71,78,79},{63,64,70,69},{67,68,74,73},{66,67,73,72},{65,66,72,71},{64,65,71,70},{77,76,82,83},{71,72,77,78},{72,73,76,77},{73,74,75,76},{74,69,80,75},{69,70,79,80},{76,75,81,82},{80,79,85,86},{75,80,86,81},{79,78,84,85},{78,77,83,84},{82,81,86,85,84,83},{100,99,117,122},{102,101,118,121},{104,103,119,120},{100,122,118,101},{98,93,99,104},{103,102,121,119},{99,104,120,117},{100,101,108,109},{93,94,100,99},{97,98,104,103},{96,97,103,102},{95,96,102,101},{94,95,101,100},{107,106,112,113},{101,102,107,108},{102,103,106,107},{103,104,105,106},{104,99,110,105},{99,100,109,110},{106,105,111,112},{110,109,115,116},{105,110,116,111},{109,108,114,115},{108,107,113,114},{112,111,116,115,114,113},},
+	cols = {{255,237,182},{187,128,48},},
+	fcols = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2},
+}
+Nib = {
+	verts = {{0.2,1.63,-0.44},{0.15,1.63,-0.46},{0.13,1.28,-0.24},{0.09,1.28,-0.26},{0.19,1.64,-0.43},{0.15,1.64,-0.44},{0.12,1.29,-0.23},{0.08,1.29,-0.24},{-0.14,0.15,0.2},{-0.1,0.02,0.34},{0.01,0.15,0.25},{-0.09,0.3,0.21},{-0.04,0.3,0.23},{-0.06,0.3,0.22},{-0.14,0.15,0.2},{-0.1,0.02,0.34},{0.01,0.15,0.25},{-0.09,0.3,0.21},{-0.04,0.3,0.23},{-0.06,0.3,0.22},},
+	faces = {{3,4,2,1},{7,5,6,8},{2,4,8,6},{4,3,7,8},{3,1,5,7},{1,2,6,5},{10,14,13,11},{9,12,14,10},{16,17,19,20},{15,16,20,18},},
+	cols = {{177,177,177},},
+	fcols = {1,1,1,1,1,1,1,1,1,1},
+}
+Shaft = {
+	verts = {{-0.07,0.26,0.14},{0.17,1.56,-0.57},{-0.01,0.26,0.15},{0.24,1.56,-0.55},{0.01,0.28,0.21},{0.26,1.59,-0.49},{-0.03,0.31,0.24},{0.21,1.62,-0.45},{-0.09,0.31,0.22},{0.15,1.63,-0.47},{-0.11,0.29,0.17},{0.13,1.6,-0.53},{-0.01,0.64,-0.12},{0.1,0.64,-0.09},{0.13,0.68,0.01},{0.05,0.73,0.07},{-0.05,0.73,0.04},{-0.08,0.69,-0.06},{0.09,0.64,-0.08},{0.11,0.68,0},{0.05,0.72,0.06},{-0.04,0.72,0.03},{-0.07,0.68,-0.05},{-0,0.64,-0.11},{0.17,1.55,-0.57},{0.24,1.54,-0.54},{0.26,1.57,-0.48},{0.21,1.61,-0.44},{0.14,1.61,-0.46},{0.12,1.58,-0.52},},
+	faces = {{25,2,4,26},{26,4,6,27},{27,6,8,28},{28,8,10,29},{4,2,12,10,8,6},{29,10,12,30},{30,12,2,25},{1,3,5,7,9,11},{23,18,13,24},{22,17,18,23},{21,16,17,22},{20,15,16,21},{19,14,15,20},{24,13,14,19},{1,24,19,3},{3,19,20,5},{5,20,21,7},{7,21,22,9},{9,22,23,11},{11,23,24,1},{18,30,25,13},{17,29,30,18},{16,28,29,17},{15,27,28,16},{14,26,27,15},{13,25,26,14},},
+	cols = {{239,239,239},{185,226,201},},
+	fcols = {1,1,1,1,1,1,1,1,2,2,2,2,2,2,1,1,1,1,1,1,2,2,2,2,2,2},
+}
+Mug = {
+	verts = {{-0.18,-0,-0.4},{-0.13,0.88,-0.31},{0.05,-0,-0.44},{0.04,0.88,-0.34},{0.26,-0,-0.35},{0.2,0.88,-0.27},{0.4,-0,-0.18},{0.31,0.88,-0.13},{0.44,-0,0.05},{0.34,0.88,0.04},{0.35,-0,0.26},{0.27,0.88,0.2},{0.18,-0,0.4},{0.13,0.88,0.31},{-0.05,-0,0.44},{-0.04,0.88,0.34},{-0.26,-0,0.35},{-0.2,0.88,0.27},{-0.4,-0,0.18},{-0.31,0.88,0.13},{-0.44,-0,-0.05},{-0.34,0.88,-0.04},{-0.35,-0,-0.26},{-0.27,0.88,-0.2},{0.05,0.88,-0.44},{-0.18,0.88,-0.4},{0.26,0.88,-0.35},{0.4,0.88,-0.18},{0.44,0.88,0.05},{0.35,0.88,0.26},{0.18,0.88,0.4},{-0.05,0.88,0.44},{-0.26,0.88,0.35},{-0.4,0.88,0.18},{-0.44,0.88,-0.05},{-0.35,0.88,-0.26},{0.04,0.76,-0.34},{-0.13,0.76,-0.31},{0.2,0.76,-0.27},{0.31,0.76,-0.13},{0.34,0.76,0.04},{0.27,0.76,0.2},{0.13,0.76,0.31},{-0.04,0.76,0.34},{-0.2,0.76,0.27},{-0.31,0.76,0.13},{-0.34,0.76,-0.04},{-0.27,0.76,-0.2},{0.77,0.43,-0.11},{0.74,0.43,-0.05},{0.68,0.43,-0.04},{0.63,0.43,-0.09},{0.66,0.43,-0.16},{0.73,0.43,-0.17},{0.72,0.61,-0.11},{0.7,0.59,-0.04},{0.64,0.55,-0.03},{0.6,0.54,-0.09},{0.63,0.55,-0.15},{0.68,0.59,-0.16},{0.6,0.73,-0.09},{0.59,0.7,-0.03},{0.55,0.64,-0.02},{0.53,0.61,-0.08},{0.54,0.64,-0.14},{0.57,0.7,-0.15},{0.42,0.78,-0.06},{0.43,0.75,-0},{0.43,0.68,-0},{0.42,0.64,-0.06},{0.41,0.68,-0.12},{0.41,0.75,-0.12},{0.42,0.08,-0.06},{0.43,0.11,-0},{0.43,0.18,-0},{0.42,0.22,-0.06},{0.41,0.18,-0.12},{0.41,0.11,-0.12},{0.6,0.12,-0.09},{0.59,0.15,-0.03},{0.55,0.21,-0.02},{0.53,0.24,-0.08},{0.54,0.21,-0.14},{0.57,0.15,-0.15},{0.72,0.25,-0.11},{0.7,0.27,-0.04},{0.64,0.31,-0.03},{0.6,0.32,-0.09},{0.63,0.31,-0.15},{0.68,0.27,-0.16},},
+	faces = {{1,26,25,3},{3,25,27,5},{5,27,28,7},{7,28,29,9},{9,29,30,11},{11,30,31,13},{13,31,32,15},{15,32,33,17},{17,33,34,19},{19,34,35,21},{6,4,37,39},{21,35,36,23},{23,36,26,1},{1,3,5,7,9,11,13,15,17,19,21,23},{2,4,25,26},{4,6,27,25},{6,8,28,27},{8,10,29,28},{10,12,30,29},{12,14,31,30},{14,16,32,31},{16,18,33,32},{18,20,34,33},{20,22,35,34},{22,24,36,35},{24,2,26,36},{37,38,48,47,46,45,44,43,42,41,40,39},{20,18,45,46},{14,12,42,43},{8,6,39,40},{22,20,46,47},{16,14,43,44},{10,8,40,41},{24,22,47,48},{4,2,38,37},{18,16,44,45},{12,10,41,42},{2,24,48,38},{49,55,56,50},{50,56,57,51},{51,57,58,52},{52,58,59,53},{53,59,60,54},{54,60,55,49},{55,61,62,56},{56,62,63,57},{57,63,64,58},{58,64,65,59},{59,65,66,60},{60,66,61,55},{61,67,68,62},{62,68,69,63},{63,69,70,64},{64,70,71,65},{65,71,72,66},{66,72,67,61},{73,79,80,74},{74,80,81,75},{75,81,82,76},{76,82,83,77},{77,83,84,78},{78,84,79,73},{79,85,86,80},{80,86,87,81},{81,87,88,82},{82,88,89,83},{83,89,90,84},{84,90,85,79},{85,49,50,86},{86,50,51,87},{87,51,52,88},{88,52,53,89},{89,53,54,90},{90,54,49,85},},
+	cols = {{249,249,226},{138,91,44},},
+	fcols = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
+}
+Flute = {
+	verts = {{-0.83,1.24,-0.91},{0.91,0.08,0.81},{-0.87,1.21,-0.9},{0.87,0.04,0.82},{-0.91,1.2,-0.86},{0.83,0.04,0.85},{-0.92,1.23,-0.83},{0.82,0.07,0.89},{-0.91,1.28,-0.81},{0.83,0.12,0.91},{-0.87,1.32,-0.82},{0.87,0.15,0.9},{-0.83,1.32,-0.85},{0.91,0.16,0.86},{-0.82,1.29,-0.89},{0.92,0.13,0.83},{-0.65,1.12,-0.75},{-0.69,1.08,-0.74},{-0.74,1.07,-0.69},{-0.76,1.11,-0.65},{-0.75,1.17,-0.62},{-0.7,1.22,-0.64},{-0.65,1.22,-0.68},{-0.63,1.18,-0.73},{-0.61,1.1,-0.72},{-0.66,1.06,-0.71},{-0.71,1.05,-0.66},{-0.73,1.09,-0.61},{-0.71,1.15,-0.59},{-0.67,1.19,-0.6},{-0.62,1.2,-0.65},{-0.6,1.16,-0.7},{-0.56,1.06,-0.66},{-0.6,1.02,-0.65},{-0.65,1.01,-0.6},{-0.67,1.05,-0.56},{-0.65,1.11,-0.53},{-0.61,1.15,-0.55},{-0.56,1.16,-0.59},{-0.54,1.12,-0.64},{-0.52,1.04,-0.63},{-0.57,0.99,-0.62},{-0.61,0.99,-0.57},{-0.64,1.03,-0.52},{-0.62,1.09,-0.5},{-0.58,1.13,-0.51},{-0.53,1.14,-0.56},{-0.51,1.1,-0.61},{-0.82,1.24,-0.93},{-0.87,1.19,-0.91},{0.87,0.03,0.81},{0.92,0.07,0.79},{-0.91,1.19,-0.87},{0.83,0.02,0.85},{-0.93,1.23,-0.82},{0.8,0.06,0.9},{-0.92,1.29,-0.79},{0.82,0.12,0.93},{-0.87,1.33,-0.81},{0.87,0.16,0.91},{-0.83,1.34,-0.85},{0.91,0.17,0.87},{-0.8,1.3,-0.9},{0.93,0.13,0.82},{0.79,0.16,0.66},{0.74,0.12,0.68},{0.69,0.11,0.72},{0.67,0.15,0.77},{0.69,0.21,0.79},{0.73,0.25,0.78},{0.78,0.26,0.73},{0.8,0.22,0.69},{0.71,0.14,0.64},{0.66,0.13,0.69},{0.64,0.17,0.74},{0.65,0.23,0.76},{0.7,0.28,0.75},{0.75,0.28,0.7},{0.77,0.24,0.65},{0.75,0.18,0.63},{-0.47,1.11,-0.52},{-0.53,1.12,-0.52},{-0.53,1.1,-0.46},{-0.48,1.09,-0.46},{0.24,0.63,0.19},{0.18,0.65,0.19},{0.18,0.63,0.24},{0.23,0.61,0.24},{0.32,0.57,0.27},{0.27,0.59,0.27},{0.26,0.57,0.33},{0.32,0.55,0.33},{0.41,0.52,0.36},{0.35,0.53,0.36},{0.35,0.51,0.41},{0.41,0.5,0.41},{0.5,0.46,0.44},{0.44,0.47,0.44},{0.43,0.45,0.5},{0.49,0.44,0.5},{0.58,0.4,0.53},{0.52,0.42,0.53},{0.52,0.4,0.58},{0.58,0.38,0.58},{0.67,0.34,0.61},{0.61,0.36,0.61},{0.61,0.34,0.67},{0.66,0.32,0.67},},
+	faces = {{65,52,51,66},{66,51,54,67},{67,54,56,68},{68,56,58,69},{69,58,60,70},{70,60,62,71},{4,2,16,14,12,10,8,6},{71,62,64,72},{72,64,52,65},{1,3,5,7,9,11,13,15},{63,24,17,49},{61,23,24,63},{59,22,23,61},{57,21,22,59},{55,20,21,57},{53,19,20,55},{50,18,19,53},{49,17,18,50},{24,32,25,17},{23,31,32,24},{22,30,31,23},{21,29,30,22},{20,28,29,21},{19,27,28,20},{18,26,27,19},{17,25,26,18},{32,40,33,25},{31,39,40,32},{30,38,39,31},{29,37,38,30},{28,36,37,29},{27,35,36,28},{26,34,35,27},{25,33,34,26},{40,48,41,33},{39,47,48,40},{38,46,47,39},{37,45,46,38},{36,44,45,37},{35,43,44,36},{34,42,43,35},{33,41,42,34},{3,1,49,50},{2,4,51,52},{5,3,50,53},{4,6,54,51},{7,5,53,55},{6,8,56,54},{9,7,55,57},{8,10,58,56},{11,9,57,59},{10,12,60,58},{13,11,59,61},{12,14,62,60},{15,13,61,63},{14,16,64,62},{1,15,63,49},{16,2,52,64},{79,72,65,80},{78,71,72,79},{77,70,71,78},{76,69,70,77},{75,68,69,76},{74,67,68,75},{73,66,67,74},{80,65,66,73},{41,80,73,42},{42,73,74,43},{43,74,75,44},{44,75,76,45},{45,76,77,46},{46,77,78,47},{47,78,79,48},{48,79,80,41},{82,83,84,81},{86,87,88,85},{90,91,92,89},{94,95,96,93},{98,99,100,97},{102,103,104,101},{106,107,108,105},},
+	cols = {{255,222,155},{138,91,44},{0,0,0},},
+	fcols = {1,1,1,1,1,1,3,1,1,3,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,3,3,3,3,3,3,3},
+}
+Sled = {
+	verts = {{-0.58,0.76,1.24},{-0.26,0.76,0.38},{0.76,0.76,-0.92},{0.99,0.76,-0.74},{1.17,0.76,-0.6},{-0.4,0.76,1.39},{0.94,0.76,-0.78},{-0.08,0.76,0.52},{-0.19,0.06,0.94},{1.18,0.06,-0.78},{1.36,0.06,-0.64},{-0.01,0.06,1.08},{-0.41,0.26,1.17},{-0.23,0.26,1.31},{-0.6,0.86,1.22},{-0.42,0.86,1.37},{-0.56,0.55,1.26},{-0.38,0.55,1.4},{0.37,0.63,0.25},{0.47,0.06,0.33},{0.33,0.06,0.51},{0.23,0.63,0.43},{0.98,0.63,-0.52},{1.08,0.06,-0.45},{0.94,0.06,-0.27},{0.84,0.63,-0.34},{0.35,0.69,0.52},{-0.12,0.69,0.15},{0.02,0.69,-0.03},{0.49,0.69,0.34},{0.96,0.69,-0.25},{0.49,0.69,-0.62},{0.63,0.69,-0.8},{1.1,0.69,-0.43},{-0.58,0.7,1.24},{-0.26,0.7,0.38},{0.76,0.7,-0.92},{0.99,0.7,-0.74},{1.17,0.7,-0.6},{-0.4,0.7,1.39},{0.94,0.7,-0.78},{-0.08,0.7,0.52},{-0.21,0.01,0.97},{1.18,0.01,-0.78},{1.36,0.01,-0.64},{-0.03,0.01,1.11},{-0.46,0.23,1.23},{-0.28,0.22,1.37},{-0.65,0.86,1.29},{-0.48,0.86,1.44},{-0.61,0.54,1.33},{-0.43,0.54,1.47},{0.33,0.62,0.22},{0.42,0.05,0.29},{0.28,0.05,0.47},{0.18,0.62,0.4},{0.94,0.62,-0.56},{1.04,0.05,-0.48},{0.9,0.05,-0.3},{0.8,0.62,-0.38},{0.35,0.63,0.52},{-0.12,0.63,0.15},{0.02,0.63,-0.03},{0.49,0.63,0.34},{0.96,0.63,-0.25},{0.49,0.63,-0.62},{0.63,0.63,-0.8},{1.1,0.63,-0.43},{-1.08,0.76,0.85},{-0.31,0.76,0.34},{0.72,0.76,-0.96},{0.49,0.76,-1.13},{0.32,0.76,-1.28},{-1.26,0.76,0.71},{0.54,0.76,-1.1},{-0.49,0.76,0.2},{-0.87,0.06,0.4},{0.49,0.06,-1.33},{0.31,0.06,-1.47},{-1.05,0.06,0.25},{-1.04,0.26,0.67},{-1.22,0.26,0.53},{-1.05,0.86,0.87},{-1.23,0.86,0.72},{-1.1,0.55,0.83},{-1.28,0.55,0.69},{-0.33,0.63,-0.3},{-0.43,0.06,-0.38},{-0.57,0.06,-0.2},{-0.47,0.63,-0.12},{0.28,0.63,-1.08},{0.19,0.06,-1.16},{0.04,0.06,-0.98},{0.14,0.63,-0.9},{-0.59,0.69,-0.22},{-0.45,0.69,-0.4},{0.03,0.69,-0.99},{0.17,0.69,-1.17},{-1.08,0.7,0.85},{-0.31,0.7,0.34},{0.72,0.7,-0.96},{0.49,0.7,-1.13},{0.32,0.7,-1.28},{-1.26,0.7,0.71},{0.54,0.7,-1.1},{-0.49,0.7,0.2},{-0.9,0.01,0.43},{0.49,0.01,-1.33},{0.31,0.01,-1.47},{-1.07,0.01,0.28},{-1.09,0.23,0.73},{-1.27,0.22,0.58},{-1.11,0.86,0.94},{-1.29,0.86,0.79},{-1.16,0.54,0.9},{-1.34,0.54,0.76},{-0.29,0.62,-0.27},{-0.38,0.05,-0.35},{-0.53,0.05,-0.17},{-0.43,0.62,-0.09},{0.33,0.62,-1.04},{0.23,0.05,-1.12},{0.09,0.05,-0.94},{0.19,0.62,-0.86},{-0.59,0.63,-0.22},{-0.45,0.63,-0.4},{0.03,0.63,-0.99},{0.17,0.63,-1.17},},
+	faces = {{6,5,4,1},{8,7,3,2},{12,11,10,9},{12,9,13,14},{18,17,15,16},{14,13,17,18},{22,21,20,19},{26,25,24,23},{30,29,28,27},{34,33,32,31},{40,35,38,39},{42,36,37,41},{46,43,44,45},{46,48,47,43},{52,50,49,51},{48,52,51,47},{56,53,54,55},{60,57,58,59},{64,61,62,63},{68,65,66,67},{1,4,38,35},{2,3,37,36},{7,8,42,41},{8,2,36,42},{3,7,41,37},{5,6,40,39},{6,1,35,40},{4,5,39,38},{9,10,44,43},{11,12,46,45},{10,11,45,44},{13,9,43,47},{12,14,48,46},{16,15,49,50},{15,17,51,49},{14,18,52,48},{17,13,47,51},{18,16,50,52},{19,20,54,53},{21,22,56,55},{22,19,53,56},{20,21,55,54},{23,24,58,57},{25,26,60,59},{26,23,57,60},{24,25,59,58},{27,28,62,61},{29,30,64,63},{30,27,61,64},{28,29,63,62},{31,32,66,65},{33,34,68,67},{34,31,65,68},{32,33,67,66},{74,69,72,73},{76,70,71,75},{80,77,78,79},{80,82,81,77},{86,84,83,85},{82,86,85,81},{90,87,88,89},{94,91,92,93},{96,95,28,29},{98,97,32,33},{104,103,102,99},{106,105,101,100},{110,109,108,107},{110,107,111,112},{116,115,113,114},{112,111,115,116},{120,119,118,117},{124,123,122,121},{126,63,62,125},{128,67,66,127},{69,99,102,72},{70,100,101,71},{75,105,106,76},{76,106,100,70},{71,101,105,75},{73,103,104,74},{74,104,99,69},{72,102,103,73},{77,107,108,78},{79,109,110,80},{78,108,109,79},{81,111,107,77},{80,110,112,82},{84,114,113,83},{83,113,115,85},{82,112,116,86},{85,115,111,81},{86,116,114,84},{87,117,118,88},{89,119,120,90},{90,120,117,87},{88,118,119,89},{91,121,122,92},{93,123,124,94},{94,124,121,91},{92,122,123,93},{95,125,62,28},{29,63,126,96},{96,126,125,95},{97,127,66,32},{33,67,128,98},{98,128,127,97},},
+	cols = {{249,249,226},{138,91,44},},
+	fcols = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2},
+}
 
 
 -- math functions
@@ -63,9 +118,10 @@ Handle = {
 	end
 
 	math.clamp = function(x, a, b)
-		if math.between(x, a, b) then return x end
-		if x < a then return a end
-		if x >= b then return b end
+		if a == nil and b == nil then 
+			a, b = 0, 1
+		end
+		return max(a, min(x, b))
 	end
 
 	math.bool2int = function(a)
@@ -154,7 +210,7 @@ Handle = {
 		return v, k
 	end
 
-	-- verified (trust me 151022)
+	-- verified (trust me 15/10/22)
 	math.isccw = function(x1, y1, x2, y2, x3, y3)
 		local a1 = x2 - x1
 		local a2 = y2 - y1
@@ -216,6 +272,7 @@ time = {
 	fps = 60,
 	ts = 0,
 	show = true,
+	timers = {},
 
 	update = function(self)
 		if keyp(20) then self.show = not self.show end
@@ -230,13 +287,43 @@ time = {
 		else
 			self.count = self.count + 1 
 		end
+		for i,timer in ipairs(self.timers) do
+			timer:update()
+		end
 	end,
 
 	draw = function(self)
 		if self.show then
 			print(self.fps, 228, 1, 4, true)
 		end
-	end
+	end,
+
+	new = function(time)
+		local timer = {t=0, finish=false}
+		setmetatable(timer, time.mt)
+		return timer
+	end,
+
+	mt = {
+
+		__index = {
+
+			update = function(self)
+				if self.finish then return end
+				self.t = self.t + 1
+				if self.t >= self.finish then
+					self.finish = true
+				end
+			end,
+
+			reset = function()
+				self.t = 0 
+				self.finish = false 
+			end
+
+		}
+
+	}
 
 }
 
@@ -274,7 +361,7 @@ mouse = {
 		local w = print(self.x, 0, -6)
 		print(self.x, self.x-w, 0, 6)
 		print(self.y, 0, self.y-6 , 6)
-	end
+	end,
 
 }
 
@@ -339,7 +426,7 @@ Vec = {
 			end,
 
 			ortho_proj = function(self, camera)
-				local x = Vec.dot(self, camera.x) + W2
+				local x = Vec.dot(self, camera.x) + 86
 				local y = Vec.dot(self, camera.y) - H2
 				return x, -y
 			end,
@@ -450,7 +537,7 @@ camera = {
 	x = Vec.new(1, 0, 0),
 	y = Vec.new(0, 1, 0),
 	ax = 0,
-	ay = 0,
+	ay = 0.5,
 	r = 100,
 	depth = 100,
 
@@ -460,18 +547,19 @@ camera = {
 		self.r = 200
 		-- learping targets
 		self.axt = -0.5
-		self.ayt = 0.5
+		self.ayt = 0
 		self.rt = 100
 		-- perspective projection
-		Vec.mt.__index.proj = Vec.mt.__index.pers_proj
+		Vec.mt.__index.proj = Vec.mt.__index.ortho_proj
 	end,
 
 	update = function(self)
 		-- update target
-		if mouse.md then
+		if mouse.md and textbox.hide then
 			self.axt = math.clamp(self.axt - 0.03*mouse.dy, -PI/2, PI/2)
 			self.ayt = self.ayt - 0.03*mouse.dx
 		end
+		-- self.ayt = self.ayt + 0.03
 		self.rt = math.clamp(self.rt - 7*mouse.scroll, 60, 300)
 		-- lerping
 		self.ax = math.lerp(0.1, self.ax, self.axt)
@@ -481,23 +569,32 @@ camera = {
 		self.o = Vec.new(0, 0, self.r):rotate(self.ax, self.ay, 0)
 		self.x = Vec.new(1, 0, 0):rotate(0, self.ay, 0)
 		self.y = Vec.new(0, 1, 0):rotate(self.ax, self.ay, 0)
-
 		-- reset camera (num 0)
 		if keyp(27) then 
-			self.axt = -0.5
-			self.ayt = 0.5
-			self.rt = 100
-			Vec.mt.__index.proj = Vec.mt.__index.pers_proj
+			self:reset()
 		end
 		-- toggle perspective (num 5)
 		if keyp(32) then 
-			if Vec.mt.__index.proj == Vec.mt.__index.pers_proj then
-				Vec.mt.__index.proj = Vec.mt.__index.ortho_proj
-			else
-				Vec.mt.__index.proj = Vec.mt.__index.pers_proj
-			end
+			self.togglePers()
 		end
 	end,
+
+	togglePers = function()
+		if Vec.mt.__index.proj == Vec.mt.__index.pers_proj then
+			Vec.mt.__index.proj = Vec.mt.__index.ortho_proj
+		else
+			Vec.mt.__index.proj = Vec.mt.__index.pers_proj
+		end
+	end,
+
+	reset = function(self)
+		self.ax = 0 
+		self.ay = 3
+		self.axt = -0.5
+		self.ayt = 0
+		self.rt = 100
+		Vec.mt.__index.proj = Vec.mt.__index.ortho_proj
+	end
 
 }
 
@@ -524,6 +621,14 @@ color = {
 		poke(addr+1, c[2])
 		poke(addr+2, c[3])
 	end,
+
+	draw = function()
+		for i = 0,15 do
+			rect(184+i%8*7, 7+i//8*7, 6, 6, i)
+		end
+		local col = pix(mouse.x, mouse.y)
+		print(col, mouse.x+7, mouse.y, 15, 0, 1, 1)
+	end
 
 }
 
@@ -632,10 +737,16 @@ Tface = {
 Mesh = {
 
 	cols = {},
+	instances = {},
 
-	load = function(obj, scale)
+	nface = 0,
+
+	new = function(obj, selectable, hide, scale)
 		scale = scale or 30
-		local mesh = {}
+		local mesh = {
+			selectable = selectable or false,
+			hide = hide or false,
+		}
 		-- load verticies
 		mesh.verts = {}
 		for i,v in ipairs(obj.verts) do
@@ -656,10 +767,12 @@ Mesh = {
 		-- color
 		if obj.cols ~= nil then
 			for i,c in ipairs(obj.cols) do
-				color.setcol(c, #Mesh.cols+7+i)
+				color.setcol(c, #Mesh.cols+8)
+				setmetatable(c, Vec.mt)
 				table.insert(Mesh.cols, c)
 			end
 		end
+		table.insert(Mesh.instances, mesh)
 		return mesh
 	end,
 
@@ -673,6 +786,13 @@ Mesh = {
 					v.p[1], v.p[2] = v:proj(camera)
 					v.p[3] = Vec.dist(v, camera.o)
 				end
+			end,
+
+			update = function(self)
+				if not self.selectable then return end
+				if self.hide then return end
+				self.hull = convexhull(self:get_proj())
+				self.ishovered = point_in_hull({mouse.x, mouse.y}, self.hull) 
 			end,
 
 			draw = function(self)
@@ -711,7 +831,7 @@ Mesh = {
 					s[i] = v.p 
 				end
 				return s 
-			end
+			end,
 
 		}
 
@@ -721,150 +841,391 @@ Mesh = {
 		return u.o > v.o
 	end, 
 
-}
-
-
--- rain = {
-
-	-- 	col = {149, 198, 198},
-	-- 	particles = {},
-	-- 	maxlife = 20,
-	-- 	minlife = 10,
-	-- 	minradius = 5,
-	-- 	maxradius = 10,
-	-- 	next = 0,
-	-- 	t = 0,
-
-	-- 	load = function(self)
-	-- 		color.setcol(self.col, 6)
-	-- 		table.insert(self.particles, {o = Vec.new(0,0,0), r = 1.7*30, fac=1})
-	-- 	end,
-
-	-- 	update = function(self)
-	-- 		self:emittimmer()
-	-- 		-- update particles
-	-- 		for i,p in ipairs(self.particles) do
-	-- 			p.fac = (time.t - p.start) / p.lifespan
-	-- 			-- remove
-	-- 			if p.fac > 1 then
-	-- 				table.remove(self.particles, i)
-	-- 			end
-	-- 		end
-	-- 		self.t = self.t + 1
-	-- 	end,
-
-	-- 	emittimmer = function(self)
-	-- 		if self.next <= self.t then
-	-- 			self:emit()
-	-- 			self.next = self.next + 3
-	-- 		end
-	-- 	end,
-
-	-- 	emit = function(self)
-	-- 		local p = {}
-	-- 		local r = random() * 50 + 30
-	-- 		local a = random() * 2*PI
-	-- 		p.o = Vec.new(r*sin(a), 0, r*cos(a)) 
-	-- 		p.fac = 0 
-	-- 		p.r = random() * (self.maxradius - self.minradius) + self.minradius
-	-- 		p.start = time.t 
-	-- 		p.lifespan = 400
-	-- 		table.insert(self.particles, p)
-	-- 	end,
-
-	-- 	draw = function(self)
-	-- 		for _,p in ipairs(self.particles) do
-	-- 			if  Vec.mt.__index.proj ~= Vec.mt.__index.ortho_proj then
-	-- 				local r = p.r * p.fac 
-	-- 				local x0, y0 = p.o:proj(camera) 
-	-- 				local d = Vec.dist(camera.o, p.o)
-	-- 				local a, _ = (r * camera.x):proj(camera) - W2
-	-- 				-- local a = (x2-x1)/2
-	-- 				local v = Vec.new(camera.y[1], 0, camera.y[3])
-	-- 				v:normalise()
-	-- 				local _, y3 = (p.o + r * v):proj(camera)
-	-- 				local _, y4 = (p.o - r * v):proj(camera)
-	-- 				local b = (y4-y3) / 2
-	-- 				ellib(x0, (y4+y3)/2, a, b, 6)
-	-- 			else
-	-- 				local x, y = p.o:proj(camera) 
-	-- 				local d = Vec.dist(camera.o, p.o)
-	-- 				local s = camera.o[2] / d 
-	-- 				local r = p.r * p.fac 
-	-- 				ellib(x, y, r, r*s, 6)
-	-- 			end
-	-- 		end
-	-- 	end,
-
--- }
-
-rain = {
-
-	col = {149, 198, 198},
-	particles = {},
-	-- uv = {30+32, 0, 0+32, 0, 0+32, 30, 30+32, 30},
-	uv = {30+64, 0+96, 0+64, 0+96, 0+64, 30+96, 30+64, 30+96},
-	minradius = 5,
-	maxradius = 10,
-	next = 0,
-	t = 0,
-
-	load = function(self)
-		color.setcol(self.col, 6)
-		for i = 1,20 do self:emit() end
+	clear = function(self)
+		self.cols = {}
+		self.instances = {}
 	end,
 
 	update = function(self)
-		self:emittimmer()
-		self.t = self.t + 1
-		-- update particles
-		for i,p in ipairs(self.particles) do
-			p.t = p.t + 1
-			if p.t > 28 then 
-				table.remove(self.particles, i)
+		for i,m in ipairs(self.instances) do
+			m:update()
+		end
+	end,
+
+	draw = function(self)
+		-- faces to draw
+		local dfaces = {}
+		for i,m in ipairs(self.instances) do
+			if not m.hide then
+				m:proj()
+				-- backface culling 
+				for _,f in ipairs(m.faces) do
+					if f:isccw() then table.insert(dfaces, f) end
+				end
 			end
-			local i = floor(p.t/2) % 4
-			local j = floor(p.t/2) // 4
-			p.f.uv = {30+i*32, 0+j*32, 0+i*32, 0+j*32, 0+i*32, 30+j*32, 30+i*32, 30+j*32}
 		end
-	end,
-
-	emittimmer = function(self)
-		if self.next <= self.t then
-			self:emit()
-			self.next = self.next + 3
+		-- compute depth, sort, and draw
+		for _,f in ipairs(dfaces) do 
+			f:seto() 
 		end
-	end,
-
-	emit = function(self)
-		local p = {}
-		local r = random() * 50 + 30
-		local a = random() * 2*PI
-		p.o = Vec.new(r*sin(a), 0, r*cos(a)) 
-		p.t = 0
-		p.r = random() * (self.maxradius - self.minradius) + self.minradius
-		p.f = self.new_face(p.o, p.r)
-		table.insert(self.particles, p)
-	end,
-
-	new_face = function(o, r)
-		local verts = {{r,0,r}, {-r,0,r}, {-r,0,-r}, {r,0,-r}}
-		for i,v in ipairs(verts) do
-			verts[i] = o + v
-			verts[i].p = Vec.new(0,0,0)
+		table.sort(dfaces, self.zsort)
+		for i,f in ipairs(dfaces) do
+			f:draw()
 		end
-		local f = Tface.new(verts, rain.uv)
-		return f 
-	end,
-
-	proj = function(self)
-		for _,p in ipairs(self.particles) do
-			p.f:proj()
+		self.nface = #dfaces
+		-- draw outline
+		for i,m in ipairs(self.instances) do
+			if m.ishovered then
+				polyb(m.hull, 0)
+			end
 		end
 	end
 
 }
 
+textbox = {
+
+	_x = 20,
+	_y = 150,
+	x = 20,
+	y = 150,
+	speed = 0.5,
+	width = 160,
+	pad = 10,
+	hide = true,
+
+	text = "",
+	len = 0,
+	visible = 0, 
+	finish = false,
+
+	say = function(self, text)
+		-- add line break
+		local t = ""
+		local tnew = ""
+		for word in text:gmatch("%S+") do
+			tnew = t .. word .. " "
+			local w = print(tnew, 0, -6)
+			if w > self.width then
+				tnew = t .. "\n".. word .. " "
+			end 
+			t = tnew 
+		end
+		self.text = tnew
+		self.len = #tnew
+		if self.hide then
+			self.visible = -16
+			self.hide = false 
+		else
+			self.visible = 0
+		end
+		self.finish = false
+	end,
+
+	update = function(self)
+		if self.hide then
+			textbox.y = 150
+		else
+			textbox.y = 100
+		end
+		-- lerp position
+		self._x = self.x
+		self._y = math.lerp(0.1, self._y, self.y)
+		-- break when text finish
+		if self.finish then return end
+		-- spacebar
+		-- if keyp(48) then
+		-- 	self:jump()
+		-- 	return
+		-- end
+		-- increment text
+		self.visible = self.visible + self.speed
+		if self.visible >= self.len then
+			self.finish = true
+		end
+	end,
+
+	draw = function(self) 
+		rect(self._x-self.pad+2, self._y-self.pad, self.width+2*self.pad-4, 18+2*self.pad, 0)
+		rect(self._x-self.pad, self._y-self.pad+2, 4, 18+2*self.pad-4, 0)
+		rectb(self._x-self.pad+2, self._y-self.pad+2, self.width+2*self.pad-4, 18+2*self.pad-4, 2)
+		spr(1, self._x-self.pad, self._y-self.pad, 3)
+		spr(1, self._x-self.pad, self._y+20, 3, 1, 0, 3)
+		spr(2, self._x+self.width/2, self._y-self.pad, -1, 1, 0, 0, 2, 1)
+		if self.hide then return end
+		local a = max(0, floor(self.visible))
+		local s = self.text:sub(1, a)
+		print(s, self._x, self._y, 3)
+	end,
+
+	jump = function(self)
+		self.visible = self.len 
+		self.finish = true
+	end,
+
+}
+
+dialog = {
+
+	command = {
+		hide = function()
+			textbox.hide = true
+		end,
+		transition_in = function()
+			transition:unwipe()
+		end,
+		transition_out = function()
+			transition:wipe()
+		end,
+	},
+	current = nil,
+
+	load = function(self, data)
+		self.co = coroutine.create(self.routine)
+		coroutine.resume(self.co, data)
+	end,
+
+	update = function(self)
+		-- mouse press
+		if mouse.mp then
+			if not textbox.finish then
+				textbox:jump()
+			elseif self.current == "text" then
+				coroutine.resume(self.co)
+			end
+		end
+		-- Spacebar
+		if keyp(48) then
+			if self.current == "event" then
+				coroutine.resume(self.co)
+			end
+		end
+		textbox:update()
+	end,
+
+	draw = function(self)
+		textbox:draw()
+		hud:draw()
+		character:draw()
+	end,
+
+	routine = function(data)
+		-- run all data
+		for i,v in ipairs(data) do
+			local char = v:sub(1,1)
+			if char == "$" then
+				local key = v:sub(2)
+				dialog.command[key]()
+				dialog.current = "event"
+				coroutine.yield()
+			elseif char == "&" then 
+				local key = v:sub(2)
+				dialog.command[key]()
+			else
+				-- default text
+				textbox:say(v)
+				dialog.current = "text"
+				coroutine.yield()
+			end
+		end
+		Scene:next()
+	end,
+
+}
+
+transition = {
+
+	instances = {},
+	co = coroutine.create(function() end),
+
+	new = function(x, y)
+		local p = {x=x, y=y}
+		p.u = p.x / WIDTH
+		p.v = p.y / HEIGHT
+		p.fac = 0
+		p.r = 16
+		setmetatable(p, transition.mt)
+		table.insert(transition.instances, p)
+	end,
+
+	mt = {
+
+		__index = {
+
+			draw = function(self)
+				circ(self.x, self.y, self.fac*self.r-1, 0)
+			end,
+
+		}
+
+	},
+
+	load = function(self)
+		for i = 0,240,20 do
+			for j = 0,136,20 do
+				transition.new(i+5, j+5)
+			end
+		end
+	end,
+
+	draw = function(self)
+		for i,v in ipairs(self.instances) do
+			v:draw()
+		end
+	end,
+
+	update = function(self)
+		coroutine.resume(self.co)
+		if keyp(10) then self:wipe() end
+		if keyp(11) then self:unwipe() end
+	end,
+
+	wipe = function(self)
+		for i = 1,#transition.instances do
+			local p = transition.instances[i]
+			p.fac = 0
+		end
+		self.co = coroutine.create(self.routine1)
+	end,
+
+	unwipe = function(self)
+		for i = 1,#transition.instances do
+			local p = transition.instances[i]
+			p.fac = 1
+		end
+		self.co = coroutine.create(self.routine2)
+	end,
+
+	routine1 = function()
+		local t = 0
+		local dt = 0.1	-- speed
+		local m = 2 	-- slope
+		-- f(u) = t - m*u
+		while t < m + 1.3 do
+			t = t + dt
+			for i = 1,#transition.instances do
+				local p = transition.instances[i]
+				local f = t - m*p.u 
+				p.fac = math.lerp(0.2, p.fac, f)
+				p.fac = math.clamp(p.fac)
+			end
+			coroutine.yield()
+		end
+		coroutine.resume(dialog.co)
+	end, 
+
+	routine2 = function()
+		local t = 0
+		local dt = 0.1	-- speed
+		local m = 2 	-- slope
+		-- f(u) = -t + m*u + 1
+		while t < m + 1.3 do
+			t = t + dt
+			for i = 1,#transition.instances do
+				local p = transition.instances[i]
+				local f = -t + m*p.u + 1
+				p.fac = math.lerp(0.2, p.fac, f)
+				p.fac = math.clamp(p.fac)
+			end
+			coroutine.yield()
+		end
+		coroutine.resume(dialog.co)
+	end 
+
+}
+
+character = {
+
+	id = 68,
+	x = 150,
+	y = 40,
+	colorkey = 15,
+	w = 12,
+	h = 12,
+
+	draw = function(self)
+		spr(self.id, self.x, self.y, self.colorkey, 1, 0, 0, self.w, self.h)
+	end
+
+}
+
+hud = {
+
+	draw = function(self)
+		map(19, 10, 11, 7, 166, 80, 15)
+		rect(0, 0, WIDTH, 4, 3)
+		rect(0, 132, WIDTH, 4, 3)
+		rect(0, 0, 4, HEIGHT, 3)
+		rect(236, 0, 4, HEIGHT, 3)
+		rectb(4, 4, 232, 128, 1)
+	end
+
+}
+
+rain = {
+
+		col = {149, 198, 198},
+		particles = {},
+		maxlife = 20,
+		minlife = 10,
+		minradius = 5,
+		maxradius = 10,
+		next = 0,
+		t = 0,
+		active = true,
+
+		load = function(self)
+			color.setcol(self.col, 6)
+			-- table.insert(self.particles, {o = Vec.new(0,0,0), r = 1.7*30, fac=1})
+		end,
+
+		update = function(self)
+			if self.active then
+				self:emittimmer()
+				self.t = self.t + 1
+			end
+			-- update particles
+			for i,p in ipairs(self.particles) do
+				p.fac = (time.t - p.start) / p.lifespan
+				-- remove
+				if p.fac > 1 then
+					table.remove(self.particles, i)
+				end
+			end
+		end,
+
+		emittimmer = function(self)
+			if self.next <= self.t then
+				self:emit()
+				self.next = self.next + 3
+			end
+		end,
+
+		emit = function(self)
+			local p = {}
+			local r = random() * 50 + 30
+			local a = random() * 2*PI
+			p.o = Vec.new(r*sin(a), 0, r*cos(a)) 
+			p.fac = 0 
+			p.r = random() * (self.maxradius - self.minradius) + self.minradius
+			p.start = time.t 
+			p.lifespan = 400
+			table.insert(self.particles, p)
+		end,
+
+		draw = function(self)
+			for _,p in ipairs(self.particles) do
+				local x, y = p.o:ortho_proj(camera) 
+				-- local d = Vec.dist(camera.o, p.o)
+				-- local s = camera.o[2] / d 
+				-- local r = p.r * p.fac 
+				-- ellib(x, y, r, r*s, 6)
+				local r = p.r * p.fac
+				ellib(x, y, r, r*sin(abs(camera.ax)), 6)
+			end
+		end,
+
+}
 
 debug = {
 
@@ -872,8 +1233,9 @@ debug = {
 	show = true,
 
 	update = function(self)
-		-- self.log[1] = "vertices: " .. #um_mesh.verts
-		-- self.log[2] = "faces: " .. #um_mesh.faces
+		-- self.log[1] = "vertices: " .. #Mesh.verts
+		self.log[1] = "camera: " .. camera.axt .. ", " .. camera.ayt
+		self.log[2] = "faces: " .. Mesh.nface
 		if keyp(44) then self.show = not self.show end
 	end,
 
@@ -886,196 +1248,443 @@ debug = {
 
 }
 
-scene = {
+Scene = {
 
-	bg_col = {177, 211, 208},
-	meshes = {},
+	scenes = {
 
-	load = function(self)
-		color.setcol(self.bg_col, 7)
-		self.meshes = {
-			Mesh.load(Outter),
-			Mesh.load(Inner),
-			Mesh.load(Floor),
-			Mesh.load(Handle),
-			Mesh.load(Stick)
+		umbrella = {
+
+			next = "yarn",
+			script = {
+				"$transition_in",
+				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+				"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+				"$hide",
+				"$transition_out"
+			},
+
+			load = function(self)
+				Mesh.new(Floor)
+				Mesh.new(Outter, true)
+				Mesh.new(Inner)
+				Mesh.new(Handle)
+				Mesh.new(Stick)
+			end,
+
+		},
+
+		yarn = {
+
+			next = "mug",
+
+			load = function(self)
+				Mesh.new(Floor)
+				Mesh.new(Yarn)
+				Mesh.new(Dust1)
+				Mesh.new(Dust2)
+				Mesh.new(Dust3)
+			end,
+
+		}, 
+
+		sled = {
+
+			next = "flute",
+
+			load = function(self)
+				Mesh.new(Floor)
+				Mesh.new(Sled)
+			end
+
+		},
+
+		flute = {
+
+			next = "mug",
+
+			load = function(self)
+				Mesh.new(Floor)
+				Mesh.new(Flute)
+			end
+
+		},
+
+		mug = {
+
+			next = "pen",
+
+			load = function(self)
+				Mesh.new(Floor)
+				Mesh.new(Mug)
+			end
+
+		},
+
+		pen = {
+
+			load = function(self)
+				Mesh.new(Floor)
+				Mesh.new(Shaft)
+				Mesh.new(Nib)
+			end,
+
 		}
-		self.um = self.meshes[1]:get_proj()
+
+	},
+
+	load = function(self, scene)
+		self.current = self.scenes[scene]
+		-- dialog script
+		if self.current.script == nil then
+			local script = {
+				"$transition_in",
+				"$hide",
+				"$transition_out"
+			}
+			dialog:load(script)
+		else
+			dialog:load(self.current.script)
+		end
+		-- mesh data
+		if type(self.current.load) == "function" then
+			Mesh:clear()
+			self.current:load()
+		end
+		camera:reset()
+	end,
+
+	update = function(self)
+		Mesh:update()
+		if type(self.current.update) == "function" then
+			self.current:update()
+		end
+		dialog:update()
+		transition:update()
 	end,
 
 	draw = function(self)
-		-- background 
-		cls(7)
-		-- faces to draw
-		local dfaces = {}
-		for i,m in ipairs(self.meshes) do
-			m:proj()
-			-- backface culling 
-			for _,f in ipairs(m.faces) do
-				if f:isccw() then table.insert(dfaces, f) end
+		-- bg texture
+		cls(2)
+		local d = 6
+		for i = 3,233,d do
+			local upper = 14*sin(i/240*2*PI+2.4) + 35 
+			for j = 7,upper,d do
+				pix(i, j+i//d%2*d/2, 1)
 			end
 		end
-		-- particle system
-		rain:proj()
-		for i,p in ipairs(rain.particles) do
-			table.insert(dfaces, p.f)
+		-- draw mesh
+		if type(self.current.draw) == "function" then
+			self.current:draw()
+		else
+			Mesh:draw()
 		end
-		-- compute depth, sort, and draw
-		for _,f in ipairs(dfaces) do 
-			f:seto() 
-		end
-		table.sort(dfaces, Mesh.zsort)
-		for i,f in ipairs(dfaces) do
-			f:draw()
-		end
-		-- draw convex hull
-		self.hull = convexhull(self.um)
-		if point_in_hull({mouse.x, mouse.y}, self.hull) then 
-			polyb(self.hull)
-		end
+		-- others
+		dialog:draw()
+		transition:draw()
 	end,
+
+	next = function(self)
+		if self.current.next == nil then return end
+		self:load(self.current.next)
+	end
 
 }
 
--- TODO
--- reflection 
--- rain particles
--- raycast + ray intersection 
--- word cast 
 
 
 camera:load()
-scene:load()
-rain:load()
-
+Scene:load("umbrella")
+transition:load()
 
 function TIC()
 
 	cls(7)
 
-	mouse:update()
 	time:update()
+	mouse:update()
+	Scene:update()
 	camera:update()
-	rain:update()
 	debug:update()
 
-	scene:draw()
-	-- rain:draw()
+	Scene:draw()
 	
 	-- mouse:draw()
 	time:draw()
+	color:draw() 
 	debug:draw()
 
 end
 
 -- <TILES>
--- 017:0000000000000000000000000000000000000000000000000000006000000000
--- 021:0000000000000000000000000000000000000000000000600000060600000060
--- 025:0000000000000000000000000000000000000666000060000000600000006000
--- 026:0000000000000000000000000000000000000000600000006000000060000000
--- 029:0000000000000000000000000000066600006000000600000006000000060000
--- 030:0000000000000000000000000000000060000000060000000600000006000000
--- 041:0000066600000000000000000000000000000000000000000000000000000000
--- 045:0000600000000666000000000000000000000000000000000000000000000000
--- 046:6000000000000000000000000000000000000000000000000000000000000000
--- 077:0000000000000000000000000000000000000000000000000000000000006666
--- 078:0000000000000000000000000000000000000000000000000000000060000000
--- 081:0000000000000000000066660006000000600000006000000060000000600000
--- 082:0000000000000000600000000600000000600000006000000060000000600000
--- 085:0000000000006666000600000060000006000000060000000600000006000000
--- 086:0000000060000000060000000060000000060000000600000006000000060000
--- 089:0000666600660000060000000600000060000000600000006000000060000000
--- 090:6000000006600000000600000006000000006000000060000000600000006000
--- 092:0000000000000000000000000000000000000006000000060000000600000006
--- 093:0066000006000000600000006000000000000000000000000000000000000000
--- 094:0660000000060000000060000000600000000600000006000000060000000600
--- 097:0060000000060000000066660000000000000000000000000000000000000000
--- 098:0060000006000000600000000000000000000000000000000000000000000000
--- 101:0600000000600000000600000000666600000000000000000000000000000000
--- 102:0006000000600000060000006000000000000000000000000000000000000000
--- 105:6000000006000000060000000066000000006666000000000000000000000000
--- 106:0000600000060000000600000660000060000000000000000000000000000000
--- 108:0000000600000000000000000000000000000000000000000000000000000000
--- 109:0000000060000000600000000600000000660000000066660000000000000000
--- 110:0000060000006000000060000006000006600000600000000000000000000000
--- 129:0000000000000000000000000000000000000000000000000000666600660000
--- 130:0000000000000000000000000000000000000000000000006000000006600000
--- 133:0000000000000000000000000000000000000000000666660660000060000000
--- 134:0000000000000000000000000000000000000000660000000066000000006000
--- 136:0000000000000000000000000000000000000000000000000000000000000006
--- 137:0000000000000000000000000000000000066666066000006000000000000000
--- 138:0000000000000000000000000000000066000000006600000000600000000600
--- 140:0000000000000000000000000000000000000000000000060000006000000600
--- 141:0000000000000000000000000006666606600000600000000000000000000000
--- 142:0000000000000000000000006600000000660000000066000000006000000006
--- 144:0000000000000000000000060000000600000060000000600000006000000060
--- 145:0600000060000000000000000000000000000000000000000000000000000000
--- 146:0006000000006000000006000000060000000060000000600000006000000060
--- 148:0000000600000060000000600000060000000600000006000000060000000600
--- 150:0000060000000060000000600000000600000006000000060000000600000006
--- 152:0000006000000600000006000000600000006000000060000000600000006000
--- 154:0000006000000006000000060000000000000000000000000000000000000000
--- 155:0000000000000000000000006000000060000000600000006000000060000000
--- 156:0000060000006000000060000006000000060000000600000006000000060000
--- 158:0000000600000000000000000000000000000000000000000000000000000000
--- 159:0000000060000000600000000600000006000000060000000600000006000000
--- 160:0000006000000006000000060000000000000000000000000000000000000000
--- 161:0000000000000000000000006000000006000000006600000000666600000000
--- 162:0000006000000600000006000000600000060000066000006000000000000000
--- 164:0000060000000600000000600000006000000006000000000000000000000000
--- 165:0000000000000000000000000000000000000000600000000660000000066666
--- 166:0000000600000006000000600000006000000600000060000066000066000000
--- 168:0000600000006000000006000000060000000060000000060000000000000000
--- 169:0000000000000000000000000000000000000000000000006000000006600000
--- 170:0000000000000000000000060000000600000060000006000000600000660000
--- 171:6000000060000000000000000000000000000000000000000000000000000000
--- 172:0006000000060000000060000000600000000600000006000000006000000006
--- 173:0000000000000000000000000000000000000000000000000000000060000000
--- 174:0000000000000000000000000000000000000006000000060000006000006600
--- 175:0600000006000000600000006000000000000000000000000000000000000000
--- 185:0006666600000000000000000000000000000000000000000000000000000000
--- 186:6600000000000000000000000000000000000000000000000000000000000000
--- 189:0660000000066666000000000000000000000000000000000000000000000000
--- 190:0066000066000000000000000000000000000000000000000000000000000000
--- 192:0000000000000000000000000000000000000006000000600000060000006000
--- 193:0000000000000000000666660660000060000000000000000000000000000000
--- 194:0000000000000000660000000066000000006600000000600000000600000000
--- 195:0000000000000000000000000000000000000000000000000000000060000000
--- 196:0000000000000000000000000000000600000060000006000000600000060000
--- 197:0000000000066666066000006000000000000000000000000000000000000000
--- 198:0000000066000000006600000000660000000060000000060000000000000000
--- 199:0000000000000000000000000000000000000000000000006000000006000000
--- 200:0000000000000000000000660000060000006000000600000060000000600000
--- 201:0006666666600000000000000000000000000000000000000000000000000000
--- 202:6600000000666000000006600000000600000000000000000000000000000000
--- 203:0000000000000000000000000000000060000000060000000060000000600000
--- 208:0000600000060000000600000060000000600000006000000060000000600000
--- 211:6000000006000000060000000060000000600000006000000060000000600000
--- 212:0006000000600000006000000600000006000000060000000600000006000000
--- 215:0600000000600000006000000006000000060000000600000006000000060000
--- 216:0600000006000000060000006000000060000000600000006000000060000000
--- 219:0006000000060000000600000000600000006000000060000000600000006000
--- 224:0060000000600000000600000006000000006000000060000000060000000060
--- 226:0000000000000000000000000000000000000000000000000000000600000060
--- 227:0060000000600000060000000600000060000000600000000000000000000000
--- 228:0600000006000000006000000060000000060000000600000000600000000600
--- 230:0000000000000000000000000000000000000000000000000000000000000006
--- 231:0006000000060000006000000060000006000000060000006000000000000000
--- 232:6000000060000000060000000600000006000000006000000060000000060000
--- 235:0000600000006000000600000006000000060000006000000060000006000000
--- 240:0000000600000000000000000000000000000000000000000000000000000000
--- 241:6000000006600000000666660000000000000000000000000000000000000000
--- 242:0000660000660000660000000000000000000000000000000000000000000000
--- 244:0000006000000006000000000000000000000000000000000000000000000000
--- 245:0000000060000000066000000006666600000000000000000000000000000000
--- 246:0000006000006600006600006600000000000000000000000000000000000000
--- 248:0000600000000600000000660000000000000000000000000000000000000000
--- 249:0000000000000000000000006660000000066666000000000000000000000000
--- 250:0000000000000006000006600066600066000000000000000000000000000000
--- 251:6000000000000000000000000000000000000000000000000000000000000000
+-- 000:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 001:3300000030000000000022220002020000202000002202000020000000200000
+-- 002:0000000000002000020222020000200000000000000000000000000000000000
+-- 003:0000000000000000022222220000000000000000000000000000000000000000
+-- 004:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 005:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 006:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 007:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 008:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 009:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 010:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 011:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 012:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 013:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 014:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 015:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 016:ffffff3fffffffffffff3fffffffffffffffff3fffffffffffff3fffffffffff
+-- 017:ffffff3fffffffffffff3fffffffffffff3fff3fffffffff3fff3fffffffffff
+-- 018:ffffffffffffffffffffffffffffffffffffff3fffffffff3fff3fffffffffff
+-- 019:ffffff3fffffffff3fff3fffffffffffff3fff3fffffffff3fff3fffffffffff
+-- 020:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 021:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 022:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 023:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 024:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 025:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 026:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 027:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 028:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 029:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 030:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 031:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 032:ff3fff3fffffffffffff3fffffffffffff3fff3fffffffff3fff3fffffffffff
+-- 033:ff3fff3fffffffff3fff3fffffffffffff3fff3fffffffff3fff3fffffffffff
+-- 034:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 035:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 036:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 037:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 038:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 039:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 040:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 041:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 042:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 043:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 044:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 045:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 046:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 047:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 048:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 049:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 050:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 051:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 052:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 053:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 054:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 055:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 056:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 057:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 058:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 059:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 060:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 061:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 062:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 063:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 064:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 065:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 066:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 067:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 068:ffffffffffffffffffffffffffffffffffffffffffffff33ffff3322fff32233
+-- 069:ffffffffffffffffffffffffffffffffffffffff333fffff222333ff33322233
+-- 070:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 071:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 072:fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3
+-- 073:ffffffffffffffffffffffffffffffffffffffffffffffffffffff333fffff36
+-- 074:ffffffffffffffffffffffffffffffffffffffffffffff33ffff331133331111
+-- 075:fffffffffffffffffffffff3ffff3311f3331111111111111111111111111111
+-- 076:ff33333f33111113111111111111111111111111111111111111111111111111
+-- 077:ffffffff3fffffff13ffffff113fffff1113ffff11103fff11103fff111103ff
+-- 078:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 079:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 080:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 081:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 082:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 083:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 084:ff322333f3223333f32333333233333332333333323333333233333332333333
+-- 085:3333332233333333333333333333333333333333333333333333333333333333
+-- 086:3fffffff23ffffff223fffff3223ffff33223fff333213ff3333213333232313
+-- 087:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 088:fffffff3fffffff3fffffff3fffffff3fffffff3fffffff3fffffff3ffffff33
+-- 089:3fffff3663fff13663fff1366330013666300136663001366663003662630136
+-- 090:6631111166311111663111116631111166631111666311112663111126631111
+-- 091:1111111111111111111111111111111111111111111111111111111111111111
+-- 092:1111111111111111111111111111111111111111111111111111111111111111
+-- 093:111113ff1111103f1111103f1111103f11111113111111031111111011111110
+-- 094:ffffffffffffffffffffffffffffffffffffffffffffffff3fffffff3fffffff
+-- 095:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 096:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 097:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 098:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 099:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 100:32333333323333333233333332333333323333333233333332333333f3233333
+-- 101:3333333333333333333333333333333333333333333333333333333333333333
+-- 102:3332322133232322333232323333232333333232333323233333323233333323
+-- 103:33ffffff113fffff211133ff2211131332211111222211113222221123222220
+-- 104:fffff303fff33113f33311113111011311100033111100331111103311111133
+-- 105:6263013662633336322333333333333333333333333333333333333377337733
+-- 106:2666300122663000666630003363220033332220333322203333222233332222
+-- 107:1111111111111111010101110010111100010111001011110101011100101011
+-- 108:1111111111111110111111101111111011111110111111111111111111111111
+-- 109:1111111001111111111111110001111100011111000011110000111100000111
+-- 110:03ffffff003fffff0003ffff0003ffff00003fff000003ff100003ff100003ff
+-- 111:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 112:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 113:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 114:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 115:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 116:ff323333ff323333ff323333fff32333fff32333ffff3233ffff3233fffff323
+-- 117:3333333333333333333333333333333333333333333333333333333333333333
+-- 118:3333333233333333333333323333333333333333333333333333333333333333
+-- 119:3232222023232223323232232323223032323231232323313232331233232312
+-- 120:0011113300011113021011132221111122222000233322223333222333332223
+-- 121:7733773333333333333333331333333211122222001112223201111132011111
+-- 122:3332222233322222333222222222222222222222222222222222200011100000
+-- 123:0001011100101011000101000000000000000000000000000000000000000000
+-- 124:1110000011000000000000000000000000000000011100000001000000000000
+-- 125:0003001100033001003ff300003fff30003ffff3003fffff003fffff003fffff
+-- 126:1000003f1000003f0100003f0000000330000003f3000000ff300000fff33000
+-- 127:ffffffffffffffffffffffffffffffffffffffff3fffffff3fffffff3fffffff
+-- 128:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 129:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 130:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 131:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 132:ffffff32ffffff32fffffff3ffffffffffffffffffffffffffffffffffffffff
+-- 133:33333333333333332333333332333333f3233333ff323333fff32333ffff3233
+-- 134:3333333333333333333333333333333333333333333333333333333333333333
+-- 135:3232331233233123323231233323312333323121333312133333121333331213
+-- 136:3333223333332233333323353333235433332254333324443333410033334444
+-- 137:2220011152222221552333224523335244423355044233550444333544442335
+-- 138:1111000011111000000111102220111122220111553320015553322145555322
+-- 139:0000000000000000000000000000000010330003110010001111111121111110
+-- 140:0000000000000000000000000000000000000000333300000332300031033000
+-- 141:003fffff003fffff0003ffff0003ffff0003333f001111230133333203333333
+-- 142:ffff3000fffff330fffffff3fffffff3ffffffff3fffffff233fffff3223ffff
+-- 143:033fffff0003ffff0003ffff0003ffff30003fff30003fff30003ffff3003fff
+-- 144:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 145:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 146:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 147:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 148:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 149:fffff322ffffff33ffffffffffffffffffffffffffffffffffffffffffffffff
+-- 150:333333332233333333222333ff333222fffff333ffffffffffffffffffffffff
+-- 151:3332121333231133333131332221133333331333ff311332ff313332f3133332
+-- 152:3333444433330000333222003332220033322200333333013333333133333133
+-- 153:4444423500044233000044330300044313110444111114441555144455554444
+-- 154:4444555344400000440200000022000332220013222201114433311244413322
+-- 155:2201111112021111000221110003322211033222110333332213333321333333
+-- 156:0111000011111110111111031111111020111111201211112041222d31432222
+-- 157:3333333333333333333333330011333311111111111111100011111210311111
+-- 158:33303fff33303333330000001100000000001000333301103333333022222110
+-- 159:f3003f3330000300000000000000000000000000000000000000111101111111
+-- 160:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 161:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 162:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 163:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 164:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 165:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 166:fffffffffffff333ffff3111fffff333ffffffffffffffffffffffffffffffff
+-- 167:3133313313f331333ff33133fff33133ff3f3133ff3f3133ff3f3133ff3f3133
+-- 168:3333344433323344333223333332243333322344333222442332222423322221
+-- 169:4444442444444244444444444444444433444444444444444444444444444444
+-- 170:4444444444444444444444444444444444444444444444444444443344444444
+-- 171:4433323344333323433333234331333343413331344133334441333333313334
+-- 172:3132233313322223133222233332222334322223303223333022233232223331
+-- 173:302320013132323231322221331333332313ffff1313ffff1313ffff1313ffff
+-- 174:11111111111111110001111133311111fff33311ffffff33ffffffffffffffff
+-- 175:1111111111111111111111111111111111111111111111033333003ffff3003f
+-- 176:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 177:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 178:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 179:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 180:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 181:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 182:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 183:ff3f3133ff3f3133ff3f3123ff3f3123ff3f3123ff3f3123ff333123fff33122
+-- 184:2132233321322333313223112132231322122210121222111001221031112111
+-- 185:1444440021444444333333330101000010101010010101011111111011111111
+-- 186:4444444344443330333333300000330011020001001201111102011100101011
+-- 187:0003333211133332111333301113333311133303111333131113331311333103
+-- 188:323233313222303f3022013f300003f1000003f1110000021111111111111111
+-- 189:1313ffff1313ffff1313ffff2313ffff2313ffff22133fff222003ff10003fff
+-- 190:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 191:ff3003ffff3003ffff303ffff3303fff3003ffff3003ffff3003ffff303fffff
+-- 192:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 193:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 194:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 195:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 196:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 197:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 198:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 199:ffff3312ffff3312fff30031ff300000ff300000fff30000ffff3000fffff300
+-- 200:2113311111113111211113111111131111111131011111330011111000111110
+-- 201:1111111111111111111111111111111111111000110000000000001100000011
+-- 202:1101201100120011110200110002011100020111002201131120011111200111
+-- 203:1133313011331131133311311331331133131111111111111111111111111111
+-- 204:0111111111000111111001101110111111101110110011101100111011001110
+-- 205:00003fff00003fff00003fff00001fff00001fff000011ff100031ff100033ff
+-- 206:ffffffffffffffffffffffffffffffffffffffffffff3333ffffffffffffffff
+-- 207:303ffffff3fffffff3fffffff3ffffff333fffff3333333f333ffffff3ffffff
+-- 208:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 209:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 210:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 211:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 212:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 213:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 214:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 215:fffffff3fffffff3fffffff3fffffff3fffffff3fffffff3ffffff30ffffff30
+-- 216:0001110000000000000000000000001100001111000000000111111101111111
+-- 217:0000111000100000110111001110001000011100111111101111110011111100
+-- 218:0020011102001111020011110200111102001111020011110201111120011111
+-- 219:1111111111111111111111101111110011111000111100001111000011100001
+-- 220:1001100000011110001110000111011001111000111101101111100011110110
+-- 221:0002033f00030331000003331000003300000033000000030010000300130100
+-- 222:ffffffffffffffff1fffffff31ffffff3311ffff33333333333333ff333fffff
+-- 223:f3fffffff3fffffff3fffffff3fffffff3ffffffffffffffffffffffffffffff
+-- 224:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 225:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 226:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 227:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 228:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 229:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 230:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 231:ffffff30ffffff30ffffff30fffff301ffffff30fffffff3ffffff31fffff313
+-- 232:1111111111111111111111111111110011111113111113333333333333333333
+-- 233:1111000010000000100012010011220233312202333132023331320233313213
+-- 234:2001111121011110220111002001110020011100200111002011111100111111
+-- 235:1100000100000011000000110000011000001101000110101111010111101010
+-- 236:1110100111110110111010011101011010101001110100000010100101010000
+-- 237:0031000000103100001113000011310000131310001131300013131001013131
+-- 238:033fffff003fffff0033ffff0003ffff00003fff000003ff0000000300000000
+-- 239:ffffffffffffffffffffffffffffffffffffffffffffffffffffffff3fffffff
+-- 240:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 241:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 242:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 243:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 244:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 245:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 246:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-- 247:fffff313fffff313ffff3133ffff3133fff31333fff31333ff313333ff313333
+-- 248:3333333333333333333333333333333333333333333333333333333333333333
+-- 249:3331321233313312333333123331331233313312333133133331331033313302
+-- 250:0011111100111110001111010110101001110101011010100111010101102111
+-- 251:1101010010101010010101001010101001010000101010100000011010101010
+-- 252:0010100001000110100010000100011001000110100010100102131010221310
+-- 253:1313131301313131101313330131333301313333001313330033333300333333
+-- 254:3000000030000000330000003310030f331000303330030f333000303333030f
+-- 255:033fffff0003333300f000000f0f0f0ff0fff0f00f0f0f0fffff0fff0f0fff0f
 -- </TILES>
 
+-- <MAP>
+-- 010:000000000000000000000000000000000000000000002131121212121212000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+-- 011:000000000000000000000000000000000000000000111212121212121212000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+-- 012:000000000000000000000000000000000000000001121212121212121212000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+-- 013:000000000000000000000000000000000000000002121212121212121212000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+-- 014:000000000000000000000000000000000000000112121212121212121212000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+-- 015:000000000000000000000000000000000000000212121212121212121212000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+-- 016:000000000000000000000000000000000000001212121212121212121212000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+-- </MAP>
+
 -- <PALETTE>
--- 000:1a1c2c5d275db13e53ef7d57ffcd75a7f07038b76425717929366f3b5dc941a6f673eff7f4f4f494b0c2566c86333c57
+-- 000:4646848387bed2dcfcfffffcfdefecffd0c985e3bcff5d4129366f3b5dc941a6f673eff7f4f4f494b0c2fcffff333c57
 -- </PALETTE>
 
